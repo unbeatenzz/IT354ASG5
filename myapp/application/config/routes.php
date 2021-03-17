@@ -53,8 +53,8 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['api/projects'] = 'api/ApiProductController/indexProject';
-$route['api/projects/create'] = 'api/ApiProductController/storeProject';
-$route['api/projects/display/(:any)'] = 'api/ApiProductController/editProject/$1';
-$route['api/projects/update/(:any)'] = 'api/ApiProductController/updateProject/$1';
-$route['api/projects/delete/(:any)'] = 'api/ApiProductController/deleteProject/$1';
+$route['api-v2/projects'] = 'api/ApiProductController/indexProject';
+$route['api-v2/projects/create'] = 'api/ApiProductController/storeProject';
+$route['api-v2/projects/display/(:any)'] = 'api/ApiProductController/editProject/$1';
+$route['api-v2/projects/update/(:any)'] = 'api/ApiProductController/updateProject/$1';
+$route['api-v2/projects/delete/(:any)'] = 'api/ApiProductController/deleteProject/$1';
