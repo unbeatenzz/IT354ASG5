@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = '/assignment5/';
+$config['base_url'] = '/';
 
 /*
 |--------------------------------------------------------------------------
